@@ -18,7 +18,10 @@ public class Smurf {
 	Smurf(String name) {
 		this.name = name;
 	}
-
+	public static void main(String[] args) {
+		new Smurf();
+		
+	}
 	public String getName() {
 		return "My name is " + name + " Smurf.";
 	}
@@ -29,14 +32,14 @@ public class Smurf {
 
 	/* Papa Smurf wears a red hat, all the others are white. */
 	public String getHatColor() {
-		// 3. Fill in this method
-		return "";
+		// 3. Fill in this method)
+		return "RED";
 	}
 
 	/* Smurfette is the only female Smurf. */
 	public String isGirlOrBoy() {
 		// 4. Fill in this method
-		return "";
+		return "Girl";
 	}
 
 }

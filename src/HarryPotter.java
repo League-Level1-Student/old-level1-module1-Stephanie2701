@@ -10,8 +10,12 @@
 		// 4. become visible again
 		// 5. cast a “stupefy” spell
 
-
 public class HarryPotter {
+	private boolean
+	public static void main(String[] args) {
+	
+		
+	}
 
 	private boolean cloakOn;
 	

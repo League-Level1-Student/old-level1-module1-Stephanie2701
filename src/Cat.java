@@ -8,7 +8,13 @@
 		// Create a CatRunner class with a main method that creates a Cat object.
 
         // 1. Make the Cat meow
-		
+	
+		public static void main(String[] args){
+			meow();
+			name();
+			kill();
+			
+		}
 		// 2. Get the Cat to print it's name
 
 		// 3. Kill the Cat!
