@@ -14,11 +14,9 @@ public class Backpack
 		// Your mission is to go to school.
 		// 1. First you need to put all your supplies into your backpack - use the putInBackpack(...) methods
 
-		goToSchool();
-		
-			log(supply);
-		
-		supply.getClass().getSimpleName().toLowerCase();
+		putInBackpack(pencil);
+		putInBackpack(ruler);
+		putInBackpack(textbook);
 		
 		
 		
@@ -33,20 +31,23 @@ public class Backpack
 
 	public void putInBackpack(Pencil supply)
 	{
-		this.pencil = supply;
-		log(supply);
+		Pencil pencil= new Pencil();
+		this.pencil = pencil;
+		log(pencil);
 	}
 
 	public void putInBackpack(Ruler supply)
 	{
-		this.ruler = supply;
-		log(supply);
+		Ruler ruler=new Ruler();
+		this.ruler = ruler;
+		log(ruler);
 	}
 
 	public void putInBackpack(Textbook supply)
 	{
-		this.textbook = supply;
-		log(supply);
+		Textbook textbook=new Textbook();
+		this.textbook = textbook;
+		log(textbook);
 	}
 
 	private void log(Supply supply)
