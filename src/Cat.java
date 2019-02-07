@@ -21,8 +21,9 @@ import sun.applet.Main;
 
 public class Cat {
 
-	private Cat cat;
+	
 	private int lives = 9;
+	private String name;
 
 	Cat(String name) {
 		this.name = name;
@@ -32,7 +33,7 @@ public class Cat {
 		System.out.println("meeeeeooooooooooowwwwwwwww!!");
 	}
 
-	public void printName() {
+	public void printName(String string) {
 		if (name == null)
 			System.out.println("i don't know my own name!");
 		else
