@@ -13,13 +13,13 @@
 
 public class Smurf {
 
-	private String name;
+	private static String name;
 
 	Smurf(String name) {
 		this.name = name;
 	}
 	public static void main(String[] args) {
-		new Smurf();
+		new Smurf(name);
 		
 	}
 	public String getName() {
@@ -33,15 +33,25 @@ public class Smurf {
 	/* Papa Smurf wears a red hat, all the others are white. */
 	public String getHatColor() {
 		// 3. Fill in this method)
+		if(name.equals("Papa")){
 		return "RED";
+		}
+		else {
+			return "WHITE";
+		}
 	}
 
 	/* Smurfette is the only female Smurf. */
 	public String isGirlOrBoy() {
 		// 4. Fill in this method
+		if( name.equals("Smurfette")){
 		return "Girl";
 	}
+		else{
+			return "Boy";
+		}
 
+}
 }
 
 
